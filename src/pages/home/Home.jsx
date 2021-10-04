@@ -1,9 +1,11 @@
+import FeaturedInfo from './../../components/featuredInfo/FeaturedInfo'
+
 import './home.css';
 
 function Home() {
   return(
     <div className='home'>
-      Home
+      <FeaturedInfo />
     </div>
   )
 }
