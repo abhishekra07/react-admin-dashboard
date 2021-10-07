@@ -12,6 +12,7 @@ import {
   WorkOutline,
   Report,
 } from "@material-ui/icons";
+import { Link } from "react-router-dom";
 import './sidebar.css';
 
 function Sidebar(){
@@ -21,10 +22,12 @@ function Sidebar(){
         <div className="sidebarMenu">
           <h3 className="sidebarTitle">Dashboard</h3>
           <ul className="sidebarList">
-            <li className="sidebarListItem active">
-              <LineStyle className="sidebarIcon" />
-              Home
-            </li>
+            <Link to="/">
+              <li className="sidebarListItem active">
+                <LineStyle className="sidebarIcon" />
+                Home
+              </li>
+            </Link>
             <li className="sidebarListItem">
               <Timeline className="sidebarIcon" />
               Analytics
@@ -38,10 +41,12 @@ function Sidebar(){
         <div className="sidebarMenu">
           <h3 className="sidebarTitle">Quick Menu</h3>
           <ul className="sidebarList">
-              <li className="sidebarListItem">
-                <PermIdentity className="sidebarIcon" />
-                Users
-              </li>
+              <Link to="/users">
+                <li className="sidebarListItem">
+                  <PermIdentity className="sidebarIcon" />
+                  Users
+                </li>
+              </Link>
               <li className="sidebarListItem">
                 <Storefront className="sidebarIcon" />
                 Products
