@@ -28,14 +28,6 @@ function Sidebar(){
                 Home
               </li>
             </Link>
-            <li className="sidebarListItem">
-              <Timeline className="sidebarIcon" />
-              Analytics
-            </li>
-            <li className="sidebarListItem">
-              <TrendingUp className="sidebarIcon" />
-              Sales
-            </li>
           </ul>
         </div>
         <div className="sidebarMenu">
@@ -53,14 +45,6 @@ function Sidebar(){
                   Products
                 </li>
               </Link>
-            <li className="sidebarListItem">
-              <AttachMoney className="sidebarIcon" />
-              Transactions
-            </li>
-            <li className="sidebarListItem">
-              <BarChart className="sidebarIcon" />
-              Reports
-            </li>
           </ul>
         </div>
         <div className="sidebarMenu">
@@ -90,10 +74,6 @@ function Sidebar(){
             <li className="sidebarListItem">
               <Timeline className="sidebarIcon" />
               Analytics
-            </li>
-            <li className="sidebarListItem">
-              <Report className="sidebarIcon" />
-              Reports
             </li>
           </ul>
         </div>

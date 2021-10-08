@@ -19,7 +19,7 @@ export default function Product() {
           </div>
           <div className="productTopRight">
               <div className="productInfoTop">
-                  <img src="https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="productInfoImg" />
+                  <img src="https://m.media-amazon.com/images/I/71H8iifAnzL._AC_SL1500_.jpg" alt="" className="productInfoImg" />
                   <span className="productName">Apple Airpods</span>
               </div>
               <div className="productInfoBottom">
@@ -60,7 +60,7 @@ export default function Product() {
               </div>
               <div className="productFormRight">
                   <div className="productUpload">
-                      <img src="https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="productUploadImg" />
+                      <img src="https://m.media-amazon.com/images/I/71H8iifAnzL._AC_SL1500_.jpg" alt="" className="productUploadImg" />
                       <label for="file">
                           <Publish/>
                       </label>

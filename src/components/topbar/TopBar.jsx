@@ -20,7 +20,7 @@ function TopBar() {
           <div className="topbarIconContainer">
             <Settings />
           </div>
-          <img src="https://png.pngtree.com/png-clipart/20190619/original/pngtree-admin-rolls-glyph-black-icon-png-image_4008300.jpg" alt="" className="topAvatar" />
+          <img src="https://avatars.githubusercontent.com/u/40576705?v=4" alt="" className="topAvatar" />
         </div>
       </div>
     </div>

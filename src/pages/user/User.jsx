@@ -22,7 +22,7 @@ import {
           <div className="userShow">
             <div className="userShowTop">
               <img
-                src="https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                src="https://avatars.githubusercontent.com/u/40576705?v=4"
                 alt=""
                 className="userShowImg"
               />
@@ -105,7 +105,7 @@ import {
                 <div className="userUpdateUpload">
                   <img
                     className="userUpdateImg"
-                    src="https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                    src="https://avatars.githubusercontent.com/u/40576705?v=4"
                     alt=""
                   />
                   <label htmlFor="file">
